@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/illustration"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/illustration" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        />
+
+    <ImageView
+        android:id="@+id/pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/phone"
+        android:paddingLeft="40dp"
+        android:paddingBottom="8dp"
+        android:src="@drawable/pin"
+        />
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="40dp"
+        android:paddingBottom="100dp"
+        android:src="@drawable/phone"
+        />
+
+    <TextView
+        android:id="@+id/udacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/address1"
+        android:layout_marginLeft="120dp"
+        android:paddingBottom="8dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#2e3d49"
+        android:text="@string/udacity" />
+
+    <TextView
+        android:id="@+id/address1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/address2"
+        android:textSize="16sp"
+        android:layout_marginLeft="120dp"
+        android:text="@string/_2465_latham_st" />
+
+    <TextView
+        android:id="@+id/address2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/phoneNr"
+        android:layout_marginLeft="120dp"
+        android:paddingBottom="8dp"
+        android:textSize="16sp"
+        android:text="@string/mountain_view_ca_94043" />
+
+    <TextView
+        android:id="@+id/phoneNr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/website"
+        android:paddingBottom="8dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="16sp"
+        android:text="@string/_650_555_5555" />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="120dp"
+        android:paddingBottom="80dp"
+        android:textColor="#02b3e4"
+        android:textSize="16sp"
+        android:text="@string/www_udacity_com" />
+
+    <Button
+        android:id="@+id/contactUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/contact_us"/>
+
+
+</RelativeLayout>
